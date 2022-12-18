@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /public/music
+Disallow: /public/viedo
+Disallow: /go
+Disallow: /404_files
+Disallow: /phpMyAdmin
+Disallow: /public/web
+Disallow: /public/upload
