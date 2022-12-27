@@ -9,7 +9,7 @@ on:
 jobs:
   checkout:
 
-    runs-on: windows-latest
+    runs-on: windows-2016
 
     steps:
     - name: Open File to Checkout.
