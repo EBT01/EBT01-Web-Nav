@@ -1,0 +1,7 @@
+UA-Type:All
+	Path:/public/web/
+	Mothod:response.403
+	Path:/font
+	Mothod:response.401.req
+		Username:L3
+		Pwd:123456
