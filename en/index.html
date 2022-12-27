@@ -1,0 +1,63 @@
+<html>
+    <hard>
+        <title>EBT01 Web Nav</title>
+        <style src="./body.css"></style>
+        <meta name="description" content="网址导航">
+        <meta http-equiv="refresh" content="3000">
+        <script src="./function.js"></script>
+    </hard>
+    <body>
+        <div class="topnav">
+            <a class="active" href="/">Home</a>
+            <a href="/public">Public Resources</a>
+            <a href="/public/music/player">Public Music</a>
+        </div>
+        <div id="header" style="background-color:#008cff;">
+            <h1 style="text-align:center;color:#00ffd5;font-family:HYWenHei;">EBT01 Web Nav</h1>
+            <div style="text-align:center;background-color: aliceblue;">
+                <form name="s" onsubmit="return vSec()" action="https://www.baidu.com/s" target="_blank">
+                    <input type="text" name="wd" placeholder="Baidu Search...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <div style="float: center;">
+            <button>
+                <img src="https://www.bilibili.com/favicon.ico" height="15" width="15">
+                <a href="https://www.bilibili.com">Bilibili</a>   
+            </button>
+            <button>
+                <img src="https://bing.com/favicon.ico" height="15" width="15">
+                <a href="https://bing.com">Bing</a>
+            </button>
+            <button>
+                <img src="https://www.taobao.com/favicon.ico" height="15" width="15">
+                <a href="https://www.taobao.com">Taobao</a>
+            </button>
+            <button>
+                <img src="https://www.163.com/favicon.ico" height="15" width="15">
+                <a href="https://www.163.com">Netease</a>
+            </button>
+            <button>
+                <img src="https://www.weibo.com/favicon.ico" height="15" width="15">
+                <a href="https://www.weibo.com">Weibo</a>
+            </button>
+            <button>
+                <img src="https://www.microsoft.com/favicon.ico" height="15" width="15">
+                <a href="https://www.microsoft.com">Microsoft</a>
+            </button>
+            <iframe src="https://weather.seniverse.com/?token=2733f85a-b4c1-4bd7-8a2b-c2edf1c6bcb3" style="float: right;height: 500px;"></iframe>
+            <div style="float: right;">
+                <iframe width="500" height="400" frameborder="0" src="https://cn.bing.com/maps/embed?h=400&w=500&cp=nz8ybvv41tp7&lvl=11&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+                </iframe>   
+           </div>
+            </div>
+
+        <div id="footer" style="background-color:#00eeff;clear:both;text-align:center;padding: 10px;">
+            <h4>©2003-2022. EBT01. All Rights Reserved.</h4>
+            <div style="text-align:center;">    
+            <audio style="float:right" controls height="50" width="500" autoplay='autoplay' src="/public/web/mainplay.mp3"></audio>
+            </div>
+        </div>
+    </body>
+</html>
