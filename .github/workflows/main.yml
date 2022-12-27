@@ -7,9 +7,11 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  checkout:
 
     runs-on: windows-latest
 
     steps:
-    - run: ./index.html
+    - name: Open File to Checkout.
+      run: |
+        ./index.html
